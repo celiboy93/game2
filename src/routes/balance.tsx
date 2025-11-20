@@ -1,7 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { getUserBalance } from "../utils/db.ts";
+import { getUserBalance } from "../utils/db.ts"; // <--- Path is correct now
 
 const SAMPLE_USER_ID = "guest_user_42";
 
