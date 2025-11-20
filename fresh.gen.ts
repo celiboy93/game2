@@ -1,7 +1,4 @@
 // fresh.gen.ts
-
-// NOTE: This file is usually auto-generated locally. We add it manually for Deno Deploy.
-
 import * as $0 from "./routes/admin/topup.tsx";
 import * as $1 from "./routes/balance.tsx";
 
