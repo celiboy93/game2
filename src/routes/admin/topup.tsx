@@ -1,7 +1,7 @@
 /** @jsx h */
 import { h } from "preact";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { topUpUserBalance } from "../../../utils/db.ts";
+import { topUpUserBalance } from "../../../utils/db.ts"; // <--- Path is correct now
 
 export const handler: Handlers = {
   async POST(req, ctx) {
