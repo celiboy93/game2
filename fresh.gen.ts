@@ -4,8 +4,9 @@ import * as $1 from "./routes/balance.tsx";
 
 const manifest = {
   routes: {
-    "./routes/admin/topup.tsx": $0,
-    "./routes/balance.tsx": $1,
+    // Attempting to use the full path expected by the error
+    "file:///src/routes/admin/topup.tsx": $0,
+    "file:///src/routes/balance.tsx": $1,
   },
   islands: {},
   baseUrl: import.meta.url,
