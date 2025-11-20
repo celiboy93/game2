@@ -4,9 +4,9 @@ import * as $1 from "./routes/balance.tsx";
 
 const manifest = {
   routes: {
-    // Attempting to use the full path expected by the error
-    "file:///src/routes/admin/topup.tsx": $0,
-    "file:///src/routes/balance.tsx": $1,
+    // We are deliberately using the 'src/' path to match what the Deno Deploy error is showing
+    "./src/routes/admin/topup.tsx": $0,
+    "./src/routes/balance.tsx": $1,
   },
   islands: {},
   baseUrl: import.meta.url,
